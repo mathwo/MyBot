@@ -1,6 +1,7 @@
 # MyBot.run AUTOIT .gitignore file
 
 # Global Files
+/.lh
 /.project
 *.ini
 *.log

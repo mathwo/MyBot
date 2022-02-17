@@ -297,12 +297,13 @@ EndFunc   ;==>ReadConfig_Debug
 
 Func ReadConfig_Android()
 	; Android Configuration
-	$g_sAndroidGameDistributor = IniRead($g_sProfileConfigPath, "android", "game.distributor", $g_sAndroidGameDistributor)
-	$g_sAndroidGamePackage = IniRead($g_sProfileConfigPath, "android", "game.package", $g_sAndroidGamePackage)
-	$g_sAndroidGameClass = IniRead($g_sProfileConfigPath, "android", "appActitivityName", $g_sAndroidGameClass)
-	$g_sUserGameDistributor = IniRead($g_sProfileConfigPath, "android", "user.distributor", $g_sUserGameDistributor)
-	$g_sUserGamePackage = IniRead($g_sProfileConfigPath, "android", "user.package", $g_sUserGamePackage)
-	$g_sUserGameClass = IniRead($g_sProfileConfigPath, "android", "UserAppActitivityName", $g_sUserGameClass)
+	$g_sAndroidGameDistributor = "360"
+	$g_sAndroidGamePackage = "com.supercell.clashofclans.qihoo"
+	$g_sAndroidGameClass = "com.supercell.titan.kunlun.GameAppKunlun"
+	$g_sUserGameDistributor = "360"
+	$g_sUserGamePackage = "com.supercell.clashofclans.qihoo"
+	$g_sUserGameClass = "com.supercell.titan.kunlun.GameAppKunlun"
+
 	$g_iAndroidBackgroundMode = Int(IniRead($g_sProfileConfigPath, "android", "backgroundmode", $g_iAndroidBackgroundMode))
 	$g_iAndroidZoomoutMode = Int(IniRead($g_sProfileConfigPath, "android", "zoomoutmode", $g_iAndroidZoomoutMode))
 	$g_iAndroidAdbReplace = Int(IniRead($g_sProfileConfigPath, "android", "adb.replace", $g_iAndroidAdbReplace))

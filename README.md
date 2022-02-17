@@ -1,6 +1,17 @@
-﻿﻿ What is it?
+﻿﻿国服版声明
+  ----------------
+2022年2月16日开始，国服版部落冲突从国际服务器上分离出来，并进行了一些定制，包括：
+ - 游戏界面语言锁定为简体中文
+ - 骷髅法术改为绿色
+ - 帮助菜单和客服进行了修改定制
+
+本文档声明
+  ----------------
+鉴于国服版部落冲突分离和定制，导致MyBot机器人因为界面语言问题失效，需要进行代码修改，本repo从2022年2月17日开始fork原作者repo，专注于兼容国服部落冲突MyBot的代码修改，目前包括360版、9game版和豌豆荚版。
+
+ What is it?
   -----------
-- A Free Clash of Clans bot. 
+- A Free Clash of Clans bot.
 - A bot is a general term in gaming that is used to refer to a character controlled by a computer.
 - https://mybot.run
 
@@ -33,7 +44,7 @@ Please see the file called LICENSE.
 - Curl.exe - curl is an open source command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP, SMTPS, Telnet and TFTP. curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, HTTP/2, cookies, user+password authentication (Basic, Plain, Digest, CRAM-MD5, NTLM, Negotiate and Kerberos), file transfer resume, proxy tunneling and more. This executable is used in our software because Pushbullet.
   http://curl.haxx.se/
 
-Mybot uses non-GPL/GPL 3rd party libraries for extension (#SystemLibraryException): 
+Mybot uses non-GPL/GPL 3rd party libraries for extension (#SystemLibraryException):
 - OpenCV - BSD license - repository : https://github.com/MyBotRun/Libraries
 - ImageSearch - GNU license - repository : https://github.com/MyBotRun/Libraries
 - MyBotRunImgLoc.dll - Functional library from the Developer TRlopes 2016 , The owner can restrict use, inspection of source code, modification of source code, and redistribution.

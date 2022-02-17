@@ -77,8 +77,9 @@ Func Initiate()
 			BotDetectFirstTime()
 			If Not $g_bRunState Then Return
 
-			If $g_bCheckGameLanguage Then TestLanguage()
-			If Not $g_bRunState Then Return
+			; skip checking for language since Chinese version has Chinese language always
+			; If $g_bCheckGameLanguage Then TestLanguage()
+			; If Not $g_bRunState Then Return
 
 			runBot()
 		EndIf

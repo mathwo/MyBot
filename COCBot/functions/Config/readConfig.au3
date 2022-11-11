@@ -297,12 +297,12 @@ EndFunc   ;==>ReadConfig_Debug
 
 Func ReadConfig_Android()
 	; Android Configuration
-	$g_sAndroidGameDistributor = "360"
-	$g_sAndroidGamePackage = "com.supercell.clashofclans.qihoo"
-	$g_sAndroidGameClass = "com.supercell.titan.kunlun.GameAppKunlun"
-	$g_sUserGameDistributor = "360"
-	$g_sUserGamePackage = "com.supercell.clashofclans.qihoo"
-	$g_sUserGameClass = "com.supercell.titan.kunlun.GameAppKunlun"
+	$g_sAndroidGameDistributor = "Tencent"
+	$g_sAndroidGamePackage = "com.tencent.tmgp.supercell.clashofclans"
+	$g_sAndroidGameClass = "com.supercell.titan.tencent.GameAppTencent"
+	$g_sUserGameDistributor = "Tencent"
+	$g_sUserGamePackage = "com.tencent.tmgp.supercell.clashofclans"
+	$g_sUserGameClass = "com.supercell.titan.tencent.GameAppTencent"
 
 	$g_iAndroidBackgroundMode = Int(IniRead($g_sProfileConfigPath, "android", "backgroundmode", $g_iAndroidBackgroundMode))
 	$g_iAndroidZoomoutMode = Int(IniRead($g_sProfileConfigPath, "android", "zoomoutmode", $g_iAndroidZoomoutMode))

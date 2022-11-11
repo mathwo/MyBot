@@ -11,6 +11,7 @@
 *.exe
 *.bmp
 *.zip
+.history/**
 
 # don't exclude exe in lib folder
 !lib/*.exe

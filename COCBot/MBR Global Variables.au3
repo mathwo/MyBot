@@ -185,12 +185,12 @@ Global Const $g_sGoogle = "Google"
 #Tidy_Off
 ; <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 ; <><><><><><>  Android.au3 (and related) globals <><><><><><>
-Global $g_sAndroidGameDistributor = "360" ; Default CoC Game Distributor, loaded from config.ini
-Global $g_sAndroidGamePackage = "com.supercell.clashofclans.qihoo" ; Default CoC Game Package, loaded from config.ini
-Global $g_sAndroidGameClass = "com.supercell.titan.kunlun.GameAppKunlun" ; Default CoC Game Class, loaded from config.ini
-Global $g_sUserGameDistributor = "360" ; User Added CoC Game Distributor, loaded from config.ini
-Global $g_sUserGamePackage = "com.supercell.clashofclans.qihoo" ; User Added CoC Game Package, loaded from config.ini
-Global $g_sUserGameClass = "com.supercell.titan.kunlun.GameAppKunlun" ; User Added CoC Game Class, loaded from config.ini
+Global $g_sAndroidGameDistributor = "Tencent" ; Default CoC Game Distributor, loaded from config.ini
+Global $g_sAndroidGamePackage = "com.tencent.tmgp.supercell.clashofclans" ; Default CoC Game Package, loaded from config.ini
+Global $g_sAndroidGameClass = "com.supercell.titan.tencent.GameAppTencent" ; Default CoC Game Class, loaded from config.ini
+Global $g_sUserGameDistributor = "Tencent" ; User Added CoC Game Distributor, loaded from config.ini
+Global $g_sUserGamePackage = "com.tencent.tmgp.supercell.clashofclans" ; User Added CoC Game Package, loaded from config.ini
+Global $g_sUserGameClass = "com.supercell.titan.tencent.GameAppTencent" ; User Added CoC Game Class, loaded from config.ini
 
 Global $g_hAndroidLaunchTime = 0 ; __TimerInit() when Android was last launched
 Global $g_iAndroidRebootHours = 24 ; Default hours when Android gets automatically rebooted
